@@ -14,3 +14,55 @@
 
 8::Wie suche ich nach Produkten in einem Design?
 
+1::Blacklist
+2::Whitelist
+3::Blockage log
+4::Settings
+5::Load blacklist
+6::Load whitelist
+7::Clear blacklist
+8::Clear whitelist
+9::Reset blacklist
+10::Empty phone number
+11::Invalid phone number
+12::Create
+13::Delete
+14::%1$s added to Blacklist
+15::%1$d numbers added to Blacklist
+16::%1$s added to Whitelist
+17::%1$d numbers added to Whitelist
+18::%1$d numbers added to %2$s
+19::%1$s added to %2$s
+20::%1$s already in Blacklist
+21::%1$s already in Whitelist
+22::%1$s already in %2$s
+23::Number « %1$s » deleted
+24::Credits
+25::Phone number
+26::Name (optional)
+27::Export blacklist
+28::Export whitelist
+29::Files
+30::Data
+31::Social
+32::Import database
+33::Export database
+34::Clear blacklist ?
+35::Clear whitelist ?
+36::Reset blacklist ?
+37::%1$s cleared
+38::Permissions required
+39::Block private numbers
+40::Unknown
+41::Clear blockage log
+42::Clear blockage log ?
+43::Clear call logs ?
+44::Blacklister is running…
+45::Activate blocking
+46::%1$s - %2$s deleted from blockage log
+47::« Blacklister » needs phone call permissions to identify scammmers or spams, and block them
+48::Enable ads
+49::Blacklist reset
+50::Blacklist updated
+51::This device is using Android Pie (28) or above. To identify incoming phone number, « Blacklister » needs access to phone call logs.
+52::To respect 

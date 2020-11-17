@@ -1,15 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY privacy_policy_url "https://harkame.blogspot.com/2020/07/blacklister-privacy-policy_12.html">]>
 <resources>
-  <string name="webadress">https://asrt.gluege.boerde.de</string>
-  <string name="simple_text">Search</string> 
-  <string name="includes_html_tags">Hello <b>World</b> !</string>
-  <string name="includes_paragraphs"
-    >Hello <b>World</b> !
-    \nThis is some test message
-    \n\nEven with double return!
-  </string>
-  <string-array name="search_title"> 
-		<item>What can I search for?</item> 
-		<item>Do I have to have an <i>account to search</i> and view information?</item> 
-		<item>How do I search for products shown in a design?</item> 
-	</string-array>
+    <string name="app_name" translatable="false">Blacklister</string>
+
+    <!-- urls -->
+    <string name="privacy_policy_url" translatable="false">https://harkame.blogspot.com/2020/07/blacklister-privacy-policy_12.html</string>
+    <string name="repository_github" translatable="false">https://github.com/Harkame/Blacklister</string>
+
+    <!-- preferences -->
+    <string name="preferences_block_private_numbers" translatable="false">block_private_numbers</string>
+    <string name="preferences_already_initialized" translatable="false">already_initialized</string>
+    <string name="preferences_activate_blocking" translatable="false">activate_blocking</string>
+    <string name="preferences_enable_ads" translatable="false">enable_ads</string>
+    <string name="preferences_block_all_except_whitelist" translatable="false">block_all_except_whitelist</string>
+    <string name="preferences_last_asset_file_size" translatable="false">last_asset_file_size</string>
+
+    <!-- database -->
+    <string name="blacklister_db" translatable="false">blacklister_db</string>
+
+    <!-- other -->
+    <string name="github" translatable="false">Github</string>
+
+    <string name="example_json_simple" translatable="false">["+33611223344", "+33677889944", "+33644556677", ...]</string>
+    <string name="example_json_complete" translatable="false">[{"id" : 1, "phoneNumber" : "+33611223344", "name" : "ExamplePhoneNumber", "type" : 0}, {"id" : 2, "phoneNumber" : "08", "name" : "ExampleStartWith", "type" : 1}, {"id" : 3, "phoneNumber" : "789", "name" : "ExampleEndWith", "type" : 2}, {"id" : 4, "phoneNumber" : "+42", "name" : "ExampleCountry", "type" : 3}, ...]</string>
+
+    <!-- tabs -->
+    <string name="blacklist">Blacklist</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="blockage_log">Blockage log</string>
+    <string name="settings">Settings</string>
+
+    <!-- settings -->
+    <string name="blocking">Blocking</string>
+    <string name="activate_blocking">Activate blocking</string>
+    <string name="block_private_numbers">Block private numbers</string>
+    <string name="block_all_except_whitelist">Block all except whitelist</string>
+    <string name="ask_block_all_except_whitelist">Do you really want to block all incoming calls except from whitelist ?</string>
+
+    <string name="enable_ads">Enable ads</string>
+    <string name="ads">Ads</string>
+
+    <string name="files">Files</string>
+    <string name="load_blacklist">Load a blacklist</string>
+    <string name="load_whitelist">Load a whitelist</string>
+    <string name="select_a_file">Select a file</string>
+    <string name="dialog_import">Import</string>
+    <string name="file_format">File format (JSON)</string>
+    <string name="export_blacklist">Export the blacklist</string>
+    <string name="export_whitelist">Export the whitelist</string>
+    <string name="select_folder">Select a folder</string>
+    <string name="new_folder">New folder</string>
+    <string name="create">Create</string>
+    <string name="export">Export</string>
+
+    <string name="data">Data</string>
+    <string name="clear_blacklist">Clear the blacklist</string>
+    <string name="ask_clear_blacklist">Do you really want to clear the blacklist ?</string>
+    <string name="clear_whitelist">Clear the whitelist</string>
+    <string name="ask_clear_whitelist">Do you really want to clear the whitelist ?</string>
+    <string name="clear_blockage_log">Clear blockage log</string>
+    <string name="ask_clear_blockage_log">Do you want really want to clear the blockage log ?</string>
+    <string name="clear_call_log">Clear call log</string>
+    <string name="ask_clear_call_log">Do you really want to clear the call log ?</string>
+    <string name="recover_blacklist">Recover the blacklist</string>
+    <string name="ask_recover_blacklist">Do you want really to recover the blacklist ?\nAll pre-installed phone numbers will be recovered.\nThis will not delete any phone number\nThis operation may take time</string>
+    <string name="blacklist_recovered">Blacklist recovered</string>
+    <string name="cleared">%1$s cleared</string>
+
+    <string name="social">Social</string>
+    <string name="credits">Credits</string>
+    <string name="hyperlink">Hyperlink</string>
+    <string name="privacy_policy">Privacy policy</string>
+
+    <!-- notification -->
+    <string name="blacklister_is_running">Blacklister is running…</string>
+
+    <!-- enter -->
+    <string name="phone_number">Phone number</string>
+    <string name="name">Name (optional)</string>
+
+    <string name="equals">Equals</string>
+    <string name="start_with">Start with (international)</string>
+    <string name="end_with">End with</string>
+    <string name="contains">Contains</string>
+    <string name="enter_country">Country : %1$s (%2$s)</string>
+    <string name="warning">Warning</string>
+    <string name="ask_block_country">Do you really want to block all incoming calls of device from the country : <b><i>%1$s</i></b> ?</string>
+
+    <string name="add">Add</string>
+
+    <string name="added_to">%1$s added to %2$s</string>
+    <string name="already_in">%1$s is already in the %2$s</string>
+
+    <string name="empty_phone_number">Empty phone number</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+
+    <!-- filter -->
+    <string name="filter">Filter</string>
+
+    <string name="country">Country</string>
+
+    <!-- import -->
+    <string name="nothing_to_import">Nothing to import</string>
+    <string name="no_call_log_explanation">This app does not use the phone call log. Here you will find calls received since installing the application</string>
+    <string name="select_all">Select all</string>
+    <string name="unselect_all">Unselect all</string>
+    <string name="import_contact">Selected : <b><i>%1$d</i></b></string>
+    <string name="multiple_added_to">%1$d phone numbers added to %2$s</string>
+
+    <!-- steps -->
+    <string name="incompatible_pie_explanation">Unfortunately, « Blacklister » is not compatible with device using <u>Android 9 - Pie (28)</u></string>
+
+    <string name="permissions_required">Permissions required</string>
+    <string name="permissions_explanation">« Blacklister » needs phone call permissions to identify scammer or spam, and block them</string>
+    <string name="permissions_explanation_pie">This device is using Android Pie (28) or above. To identify incoming phone number, « Blacklister » needs access to phone call log</string>
+    <string name="toast_never_ask_again">If you press « never ask again » button, please go to your settings and set Blacklister as default caller ID &amp; spam app</string>
+    <string name="default_dialer_explanation">To respect <a href="https://support.google.com/googleplay/android-developer/answer/9888170">Google Play permissions policy</a>. « Blacklister » must be default caller ID &amp; spam app. It won\'t affect other Phone apps.</string>
+
+    <string name="privacy_policy_explanation">By tapping on « NEXT », you are indicating that you have read the <a href="https://harkame.blogspot.com/2020/07/blacklister-privacy-policy_12.html">privacy policy</a></string>
+    <string name="default_app">Default app</string>
+    <string name="step_next">NEXT</string>
+    <string name="step_back">BACK</string>
+    <string name="step_complete">OK</string>
+
+    <!-- blocages -->
+    <string name="private_call">Private</string>
+    <string name="deleted_from_blockage_log">%1$s - %2$s deleted from blockage log</string>
+
+    <!-- blacklist update -->
+    <string name="new_blacklist_detected">New blacklist detected</string>
+    <string name="ask_update_blacklist">Do you want to update the blacklist ? This will not delete any phone number</string>
+    <string name="blacklist_updated">Blacklist updated</string>
+
+    <!-- update -->
+    <string name="update_downloaded">An update has just been downloaded</string>
+    <string name="restart">Restart</string>
+
+    <!-- contact details -->
+    <string name="start_with_title">Start with : %1$s</string>
+    <string name="end_with_title">End with : %1$s</string>
+    <string name="contains_title">Contains : %1$s</string>
+    <string name="moved_to">Move to %1$s</string>
+    <string name="delete">Delete</string>
+    <string name="number_moved_to">%1$s moved to %2$s</string>
+    <string name="description_contact_type">Contact type</string>
+    <string name="contact_deleted">%1$s deleted</string>
+
+    <!-- add contact -->
+    <string name="call_log">Call log</string>
+    <string name="contacts">Contacts</string>
+    <string name="enter">Enter</string>
+
+    <!-- rate -->
+    <string name="rate_dialog_title">Already %1$d blockages !</string>
+    <string name="rate_dialog_message">If you enjoy this app, would you mind taking a moment to rate it ? It won\'t take more than a minute. Thanks for your support !</string>
 </resources>
