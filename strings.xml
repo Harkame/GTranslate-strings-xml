@@ -1,11 +1,4 @@
 <resources>
-  <string name="mail_app_not_found">Application e-mail par default non trouvée, vous pouvez me contacter manuellement à l\'adresse suivante : &lt;b>louisr.daviaud.pro@gmail.com&lt;/b></string>
-  <string name="ask_block">Do you really want to block all incoming calls that match ?</string>
-
-  <string name="invalid_starts_with">Should start with « <b>+</b> », please see example</string>
-  <string name="unknown_error">Unknown error</string>
-
-  <string name="add_to_whitelist">Add to whitelist</string>
-  <string name="remove_from_blacklist">Remove from blacklist</string>
-  <string name="blocking_currently_deactivate">"Blocking is currently deactivate !"</string>
+  <string name="update_downloaded">An update has just been downloaded</string>
+  <string name="restart">Restart</string>
 </resources>

@@ -1,6 +1,5 @@
 import os
 import xml.etree.ElementTree as ET
-import sys
 import shutil
 from pathlib import Path
 from googletrans import Translator
