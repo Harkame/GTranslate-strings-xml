@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY privacy_policy_url "https://harkame.blogspot.com/2020/07/blacklister-privacy-policy_12.html">]>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Blacklister</string>
+
+    <!-- urls -->
+    <string name="privacy_policy_url" translatable="false">https://harkame.blogspot.com/2020/07/blacklister-privacy-policy_12.html</string>
+    <string name="repository_github" translatable="false">https://github.com/Harkame/Blacklister</string>
+
+    <!-- preferences -->
+    <string name="preferences_block_private_phone_numbers" translatable="false">block_private_numbers</string>
+    <string name="preferences_block_unknown_phone_numbers" translatable="false">block_unknown_phone_numbers</string>
+    <string name="preferences_activate_blocking" translatable="false">activate_blocking</string>
+    <string name="preferences_block_all_except_whitelist" translatable="false">block_all_except_whitelist</string>
+    <string name="preferences_last_asset_file_size" translatable="false">last_asset_file_size</string>
+    <string name="preferences_introduction_already_showed" translatable="false">introduction_already_showed</string>
+    <string name="preferences_block_foreign_phone_numbers" translatable="false">block_foreign_phone_numbers</string>
+    <string name="preferences_dont_block_contacts" translatable="false">dont_block_contacts</string>
+    <string name="preferences_notify_when_call_blocked" translatable="false">notify_when_call_blocked</string>
+    <string name="preferences_help_displayed_press_enter_edit_name" translatable="false">help_displayed_press_enter_edit_name</string>
+    <string name="preferences_last_datetime_asked_review" translatable="false">last_datetime_asked_review</string>
+
+    <!-- database -->
+    <string name="blacklister_db" translatable="false">blacklister_db</string>
+
+    <!-- other -->
+    <string name="github" translatable="false">Github</string>
+    <string name="contact_url" translatable="false">louisr.daviaud.pro@gmail.com</string>
+
+    <string name="example_json_simple" translatable="false">["+33611223344",…]</string>
+
+    <!-- tabs -->
+    <string name="blacklist">Blacklist</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="blockage_log">Blockage log</string>
+    <string name="settings">Settings</string>
+
+    <!-- settings -->
+    <string name="blocking">Blocking</string>
+    <string name="activate_blocking">Activate blocking</string>
+    <string name="block_private_phone_numbers">Block private numbers</string>
+    <string name="private_phone_numbers">Phone numbers that are not displayed</string>
+    <string name="deactivate_blocking">Deactivate blocking</string>
+    <string name="ask_deactivate_blocking">Do you really want to deactivate blocking ?</string>
+    <string name="block_unknown_phone_numbers">Block unknown phone numbers</string>
+    <string name="phone_numbers_not_in_contacts">Phone numbers that are not in your contacts</string>
+    <string name="ask_block_unknown_phone_numbers">Do you really want to block all incoming calls from phone numbers that are not in your contacts ?</string>
+    <string name="block_all_except_whitelist">Block all except whitelist</string>
+    <string name="ask_block_all_except_whitelist">Do you really want to block all incoming calls except from the whitelist ?</string>
+    <string name="block_foreign_phone_numbers">Block foreign phone numbers</string>
+    <string name="ask_block_foreign_phone_numbers">Do you really want to block foreign phone numbers ?</string>
+    <string name="dont_block_contacts">Don\'t block contacts</string>
+    <string name="ask_block_contacts">Are you sure you want to block phone numbers that may be in your contacts?</string>
+    <string name="notify_call_blocked">Notify when a call is blocked</string>
+
+    <string name="files">Files</string>
+    <string name="files_format">Files format :</string>
+    <string name="json" translatable="false">JSON</string>
+    <string name="import_file">Import</string>
+    <string name="export_file">Export</string>
+    <string name="phone_numbers_format">Phone numbers format :</string>
+    <string name="e_164" translatable="false">E.164</string>
+    <string name="load_blacklist">Load a blacklist</string>
+    <string name="load_whitelist">Load a whitelist</string>
+    <string name="select_a_file">Select a file</string>
+    <string name="dialog_import">Import</string>
+    <string name="export_blacklist">Export the blacklist</string>
+    <string name="export_whitelist">Export the whitelist</string>
+
+    <string name="data">Data</string>
+    <string name="clear_blacklist">Clear the blacklist</string>
+    <string name="ask_clear_blacklist">Do you really want to clear the blacklist ?</string>
+    <string name="clear_whitelist">Clear the whitelist</string>
+    <string name="ask_clear_whitelist">Do you really want to clear the whitelist ?</string>
+    <string name="clear_blockage_log">Clear the blockage log</string>
+    <string name="ask_clear_blockage_log">Do you want really want to clear the blockage log ?</string>
+    <string name="clear_call_log">Clear the call log</string>
+    <string name="ask_clear_call_log">Do you really want to clear the call log ?</string>
+    <string name="recover_blacklist">Recover the blacklist</string>
+    <string name="ask_recover_blacklist">Do you want really to recover the blacklist ?\nAll pre-installed phone numbers will be recovered.\nThis will not delete any phone number\nThis operation may take time</string>
+
+    <string name="social">Social</string>
+    <string name="credits">Credits</string>
+    <string name="hyperlink">Hyperlink</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="contact">Contact</string>
+    <string name="mail_app_not_found">Default e-mail application not found, you can contact me manually at the following address: &lt;b>louisr.daviaud.pro@gmail.com&lt;/b></string>
+
+    <!-- enter -->
+    <string name="phone_number">Phone number</string>
+    <string name="name">Name (optional)</string>
+    <string name="equals">Equals</string>
+    <string name="starts_with">Starts with</string>
+    <string name="starts_with_e164">Starts with (E.164)</string>
+    <string name="ends_with">Ends with</string>
+    <string name="ends_with_e164">Ends with (E.164)</string>
+    <string name="contains">Contains</string>
+    <string name="contains_e164">Contains (E.164)</string>
+    <string name="enter_country">Country : %1$s (%2$s)</string>
+    <string name="warning">Warning</string>
+    <string name="ask_block_country">Do you really want to block all calls from the phone number of this country : <b><i>%1$s</i></b> ?</string>
+    <string name="ask_block">Do you really want to block all incoming calls that match ?</string>
+    <string name="add">Add</string>
+
+    <plurals name="added_to">
+        <item quantity="one">%1$s added to %2$s</item>S
+        <item quantity="other">%1$d phone numbers added to %2$s</item>
+    </plurals>
+
+    <string name="already_in">%1$s is already in the %2$s</string>
+
+    <string name="empty_phone_number">Empty phone number</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="invalid_characters">Invalid characters</string>
+    <string name="invalid_starts_with">Should start with « <b>+</b> », please look at the example</string>
+    <string name="unknown_error">Unknown error</string>
+
+    <string name="national">National :</string>
+    <string name="international">International :</string>
+    <string name="e164">E.164 :</string>
+
+    <string name="example">Example :</string>
+
+    <!-- filter -->
+    <string name="filter">Filter</string>
+
+    <string name="country">Country</string>
+
+    <!-- import -->
+    <string name="select_all">Select all</string>
+    <string name="unselect_all">Unselect all</string>
+    <string name="import_contact">Selected : <b><i>%1$d</i></b></string>
+
+
+    <!-- steps -->
+    <string name="incompatible_pie_explanation">Unfortunately, « Blacklister » is not compatible with device using <u>Android 9 - Pie (28)</u></string>
+
+    <string name="permissions_required">Permissions required</string>
+    <string name="permissions_explanation">This application needs phone call permissions to identify scammer or spam, and block them</string>
+    <string name="permissions_explanation_pie">This device is using Android Pie (28) or above. To identify incoming phone number, this application needs access to phone call log</string>
+    <string name="permissions_explanation_never_ask_again">If you select never ask again option, please go to settings and allow Blacklister\'s permissions</string>
+    <string name="toast_never_ask_again">If you have select never ask again option, please go to your settings and set Blacklister as default caller ID &amp; spam app</string>
+    <string name="default_dialer_explanation">To respect <a href="https://support.google.com/googleplay/android-developer/answer/9888170">Google Play permissions policy</a>. « Blacklister » must be the default caller ID &amp; spam app. It won\'t affect other Phone apps.</string>
+
+    <string name="privacy_policy_explanation">By tapping on « NEXT », you are indicating that you have read the <a href="https://harkame.blogspot.com/2020/07/blacklister-privacy-policy_12.html">privacy policy</a></string>
+    <string name="default_app">Default app</string>
+    <string name="step_next">NEXT</string>
+    <string name="step_back">BACK</string>
+    <string name="step_complete">OK</string>
+
+    <!-- blockages -->
+    <string name="private_call">Private</string>
+    <string name="deleted_from_blockage_log">%1$s - %2$s deleted from the blockage log</string>
+
+    <!-- blacklist update -->
+    <string name="new_blacklist_detected">New blacklist detected</string>
+    <string name="ask_update_blacklist">Do you want to update the blacklist ? This will not delete any phone number</string>
+    <string name="blacklist_updated">Blacklist updated</string>
+
+    <!-- update -->
+    <string name="update_downloaded">An update has just been downloaded</string>
+    <string name="restart">Restart</string>
+
+    <!-- contact details -->
+    <string name="start_with_title">Start with : %1$s</string>
+    <string name="end_with_title">End with : %1$s</string>
+    <string name="contains_title">Contains : %1$s</string>
+    <string name="move_to">Move to %1$s</string>
+    <string name="delete">Delete</string>
+    <string name="contact_moved_to">%1$s moved to the %2$s</string>
+    <string name="description_contact_type">Contact type</string>
+    <string name="deleted_from">%1$s deleted from the %2$s</string>
+
+    <!-- add contact -->
+    <string name="call_log">Call log</string>
+    <string name="contacts">Contacts</string>
+    <string name="enter">Enter</string>
+
+    <!-- rate -->
+    <string name="rate_dialog_title" tools:ignore="PluralsCandidate">Already %1$d blockages !</string>
+
+    <string name="rate_this_app">Rate this app</string>
+
+    <!-- notification -->
+    <string name="blacklister_is_running">Blacklister is running…</string>
+
+    <string name="action_unblock" translatable="false">unblock</string>
+    <string name="action_add_to_whitelist" translatable="false">add_to_whitelist</string>
+
+    <string name="add_to_whitelist">Add to whitelist</string>
+    <string name="remove_from_blacklist">Remove from blacklist</string>
+    <string name="blocking_currently_deactivate">"Blocking is currently deactivate !</string>
+
+    <string name="advice_press_enter_update">Press « Enter » key to edit the name</string>
+    <string name="an_error_occured">An error occurred</string>
+    <string name="name_updated_from_to">"""Name updated from « %1$s » to « %2$s »</string>
+    <string name="blockage_log_matching_contact">Blockage log matching this contact (%1$d)</string>
+    <string name="blocked_contact">Blocked contact</string>
+    <string name="authorized_contact">Authorized contact</string>
+
+    <string name="no_other_blockage_phone_number">No other blockage for this phone number</string>
+    <plurals name="other_blockage_phone_number">
+        <item quantity="one">Other blockage of this phone number</item>
+        <item quantity="other">Other blockages of this phone number (%1$d)</item>
+    </plurals>
+
+    <string name="phone_number_international">Phone number (International)</string>
+    <string name="type">Type</string>
+    <string name="export_blockage_log">Export the blockage log</string>
+    <string name="unknow_phone_number_format">Unknow phone number format</string>
+    <string name="reset">Reset</string>
+    <string name="reset_blocking_settings">Reset blocking settings</string>
+    <string name="ask_reset_blocking_settings">Do you really want to reset blocking settings ?</string>
+
+
+</resources>
